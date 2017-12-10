@@ -4,28 +4,30 @@ html{
   line-height: 1.4;
   font-family: Helvetica;
 }
-.site-container{
-  max-width: 960px;
-  margin: 1rem auto 0 auto;
+.site-container {
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 
 /*** Tortoiseshell Optics banner and header with logo, store name and nav bar ***/
 .banner{
+  height: 31rem;
   background-image: url(../images/glasses-bg.png);
   background-size: cover;
-  height: 31rem;
 }
+
 /* header styling */
 header{
   margin-top: 1rem;
   background-color: cadetblue;
   color: white;
 }
-header.flex-container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header.flex-container {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* logo styling */
