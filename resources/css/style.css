@@ -3,9 +3,63 @@ h1 {
   font-size: 50px;
 }
 
+html{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
 /*Tortoiseshell Optics banner and header with logo, store name and nav bar */
 .banner{
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  height: 31rem;
+}
 
+header{
+  margin-top: 1rem;
+  background-color: cadetblue;
+  color: white;
+}
+
+header nav{
+  margin-right: 1rem;
+}
+
+header nav span{
+  display: inline-block;
+  padding: 1rem;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: auto;
+  text-decoration: none;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  margin-left: 2rem;
+  height: 1.5rem;
+}
+
+.logo span{
+  margin-left: 1rem;
+}
+
+header.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-container{
+  max-width: 960px;
+  margin: 1rem auto 0 auto;
 }
 
 /* content section */
