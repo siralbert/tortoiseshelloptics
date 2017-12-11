@@ -4,6 +4,9 @@ html{
   line-height: 1.4;
   font-family: Helvetica;
 }
+p{
+  line-height: 1.4;
+}
 .site-container {
     max-width: 960px;
     margin: 0 auto;
@@ -125,6 +128,9 @@ h2{
 .info{
   width: 35%;
 }
+#appointments{
+  margin-left: 5%;
+}
 
 /* footer section with logo and copyright */
 footer{
@@ -133,4 +139,21 @@ footer{
   display: flex;
   align-items: center;
   margin-top: 5rem;
+}
+
+/* media queries */
+@media only screen and (max-width: 980px) {
+  .banner{
+    height: 21rem;
+  }
+  header{
+    margin-top: 0;
+    position: fixed;
+    z-index: 5;
+  }
+  .caption h1{
+    padding: 0.75rem 4rem;
+    margin-right: 2rem;
+    font-size: 1.33rem;
+  }
 }
