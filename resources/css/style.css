@@ -160,6 +160,7 @@ footer{
     font-size: 1.33rem;
   }
 }
+
 @media only screen and (max-width: 680px) {
 
   #name{
