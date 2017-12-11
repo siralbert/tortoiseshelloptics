@@ -73,6 +73,16 @@ a:-webkit-any-link {
     margin: 3rem;
     height: 8rem;
 }
+/* flex container for each icon including img and text */
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#ruler, #truck {
+    margin-left: 6rem;
+}
 #paper img{
   width: 3.5rem;
 }
@@ -81,6 +91,9 @@ a:-webkit-any-link {
 }
 #truck img{
   width: 5rem;
+}
+.icon p {
+    text-align: center;
 }
 
 /* info divs */
