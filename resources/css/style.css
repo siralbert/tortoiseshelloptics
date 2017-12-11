@@ -58,11 +58,32 @@ a:-webkit-any-link {
 }
 
 
-/* content section */
+/*** content section ***/
 .content {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
+/* icon divs */
+/* flex container for icon divs */
+.icons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 3rem;
+    height: 8rem;
+}
+#paper img{
+  width: 3.5rem;
+}
+#ruler img{
+  width: 5rem;
+}
+#truck img{
+  width: 5rem;
+}
+
+/* info divs */
 h2{
   padding: 0.5rem 1.25rem;
   background-color: cadetblue;
