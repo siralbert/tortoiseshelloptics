@@ -189,4 +189,32 @@ footer{
     float: none;
     width: 100%;
   }
+
+  footer{
+    justify-content: center;
+  }
+  .logo img {
+    margin-left: 0;
+  }
+  #header-logo{
+    margin-left: 0.5rem;
+  }
+
+  p{
+    font-size: 0.77rem;
+  }
+
+  .icons {
+      flex-direction: column;
+      justify-content: center;
+      margin: 3.77rem;
+      height: auto;
+  }
+  .icon{
+    margin-top:1.54rem;
+    height: 8rem;
+  }
+  #ruler, #truck{
+    margin-left: 0;
+  }
 }
