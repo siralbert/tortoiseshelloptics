@@ -60,6 +60,9 @@ header.flex-container {
 }
 
 /* nav bar styling */
+#menu{
+  display: none;
+}
 header nav{
   margin-right: 1rem;
 }
@@ -155,5 +158,34 @@ footer{
     padding: 0.75rem 4rem;
     margin-right: 2rem;
     font-size: 1.33rem;
+  }
+}
+@media only screen and (max-width: 680px) {
+
+  #name{
+    display: none;
+  }
+  #menu{
+    display: inline-block;
+    padding-right: 0;
+  }
+  .menu-item{
+    display: none;
+  }
+
+  .banner{
+    height: 17rem;
+  }
+  .caption h1{
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-right: 0;
+    margin-top: 9rem;
+  }
+  .caption{
+    margin-top: 12px;
+    float: none;
+    width: 100%;
   }
 }
