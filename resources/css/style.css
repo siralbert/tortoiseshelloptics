@@ -59,9 +59,29 @@ a:-webkit-any-link {
 
 
 /* content section */
-.content{
-
+.content {
+    display: flex;
+    justify-content: center;
 }
+h2{
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  width: 10rem;
+  color: white;
+}
+.info-text{
+  margin-top: 1rem;
+}
+.info{
+  width: 35%;
+}
+
+
+
+
 
 /* footer section with logo and copyright */
 footer{
