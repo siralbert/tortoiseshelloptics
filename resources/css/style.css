@@ -217,4 +217,17 @@ footer{
   #ruler, #truck{
     margin-left: 0;
   }
+
+  .info{
+    width: 100%
+  }
+  h2{
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  #appointments {
+    margin-left: 0;
+    margin-top: 4rem;
+  }
 }
