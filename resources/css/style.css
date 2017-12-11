@@ -100,11 +100,11 @@ h2{
   width: 35%;
 }
 
-
-
-
-
 /* footer section with logo and copyright */
 footer{
-
+  background-color: azure;
+  height: 9.5rem;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
 }
